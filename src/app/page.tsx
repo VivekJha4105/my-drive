@@ -267,7 +267,7 @@ export default function GoogleDriveClone() {
   );
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen bg-red-900 text-white">
       {/* Header */}
       <header className="border-b border-gray-700 px-6 py-4">
         <div className="flex items-center justify-center gap-6">
