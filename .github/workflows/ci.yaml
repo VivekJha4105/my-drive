@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 jobs:
-  buids:
+  builds:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
