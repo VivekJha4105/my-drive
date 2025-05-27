@@ -22,6 +22,8 @@ import * as schema from "./schema";
  *
 */
 
+//! The Pool must be created within server/db as drizzle.config file doesnt work with Pool.
+
 const globalForDb = globalThis as unknown as {
   conn: Pool | undefined;
 };
