@@ -5,14 +5,3 @@ export const users = singlestoreTable("users_table", {
   name: text("name"),
   age: int("age"),
 });
-
-export const fileItems = singlestoreTable("fileItems_table", {
-  id: int("id").primaryKey().autoincrement(),
-  name: text("name"),
-  type: text("type"),
-  size: int("size"),
-  modified: date("modified"),
-  starred: boolean("starred"),
-  fileType: text("fileType"),
-  url: text("url"),
-})
