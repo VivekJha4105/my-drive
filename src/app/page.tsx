@@ -5,7 +5,7 @@ import {
 } from "~/server/db/schema";
 import DriveContent from "./drive-contents";
 
-export default async function MyDrive() {
+export default async function HomePage() {
   const files = await db.select().from(filesSchema);
   const folders = await db.select().from(foldersSchema);
 
